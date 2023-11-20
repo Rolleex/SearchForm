@@ -33,7 +33,7 @@ def validate_date(date):
         return True
 
 
-@app.route('/find', methods=['POST'])
+@app.route('/get_form', methods=['POST'])
 def search():
     """ Принимаем данные и ищем совпадения"""
     form_data = request.form
